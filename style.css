@@ -1,0 +1,44 @@
+/* style.css */
+
+/* --- Import Components stylesheets --- */
+@import url(/components/avatar.css);
+@import url(/components/buttons.css);
+@import url(/components/card.css);
+@import url(/components/sidebar.css);
+@import url(/components/footer.css);
+
+/* --- Fonts --- */
+body {
+  font-family: 'Nunito', sans-serif;
+  margin-right: 0px;
+}
+
+h1, h2, h3{
+  font-family: 'Lora', serif;
+}
+
+
+p {
+  color: #999999;
+  text-align: left;
+  /*padding-top: 10px;*/
+  padding-bottom: 10px;
+  max-width: 450px;
+}
+
+p + p{
+  margin-top:10px;
+}
+
+.text.center {
+  text-align: center;
+}
+
+#content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 90px;
+    margin-right: 0px;
+    background-color: #EDEFF0;
+}
+

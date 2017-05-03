@@ -1,0 +1,16 @@
+
+
+.avatar-large{
+width: 160px;
+border-radius: 50%;
+}
+
+.avatar{
+width: 80px;
+border-radius: 50%;
+}
+
+.avatar-small{
+width: 30px;
+border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 90px;
+  text-align: center;
+}
+
+
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+i {
+  padding-top: 30px;
+  margin: 10px;
+  text-align: center;
+}
+

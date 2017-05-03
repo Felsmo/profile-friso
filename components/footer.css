@@ -1,0 +1,19 @@
+
+
+#footer {
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+}
+#footer {
+  flex: 0 0 24%;
+  font-size: 18px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+  }
+
+ #footer:hover {
+  color:white;
+}
