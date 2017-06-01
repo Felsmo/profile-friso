@@ -17,7 +17,6 @@ h1, h2, h3{
   font-family: 'Lora', serif;
 }
 
-
 p {
   color: #999999;
   text-align: left;
@@ -35,10 +34,14 @@ p + p{
 }
 
 #content {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: 90px;
-    margin-right: 0px;
-    background-color: #EDEFF0;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0px;
+  background-color: #EDEFF0;
 }
 
+@media only screen and (max-width: 767px) {
+    #content {
+        margin-left: 60px;
+    }
+}
